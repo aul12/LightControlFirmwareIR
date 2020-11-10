@@ -4,6 +4,8 @@ This is an [Mbed](https://os.mbed.com/) project for the
 [Freescale (now NXP) FRDM-K64F](https://www.nxp.com/support/developer-resources/evaluation-and-development-boards/freedom-development-boards/mcu-boards/freedom-development-platform-for-kinetis-k64-k63-and-k24-mcus:FRDM-K64F)
 development board. It opens a UDP server which forwards the received byte via Infrared, using the NEC-Protocol.
 
+This setups has been replace by [LightControlFirmware](https://github.com/aul12/LightControlFirmware) which uses an ESP and directly controls the LED strips, see [aul12.me/embedded/2019/06/25/lightstrip.html](https://aul12.me/embedded/2019/06/25/lightstrip.html) for more information.
+
 ## How to use
 ### Prerequisites
  * GNU make
